@@ -1,0 +1,7 @@
+Group -12
+Group members:
+1) Adib Bin Morshed (A20EC4008)
+2) Islam Mohammed Ruzhan (A20EC4028)
+3) Mir Tamzid Hasan (A20EC4037)
+4) Nazmus Sakib (A20EC4046)
+5) Shahriar Hasan Sajid (A16CS4022)
