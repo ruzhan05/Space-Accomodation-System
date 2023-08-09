@@ -1,0 +1,71 @@
+<html> 
+ 
+<head> 
+    <link rel="stylesheet" href="newstyle.css"> 
+    <title> 
+       Registration Form 
+    </title> 
+</head> 
+ 
+<body> 
+    <img src > 
+    <div class = "container"> 
+        <div class = "title">Space Application Form </div> 
+        <form method="post" action="insert_student.php"> 
+             <div class="user-details"> 
+                 <div class="input-box"> 
+                     <span class="details">First Name:</span> 
+                     <input type="text" name="fname"> 
+                 </div> 
+                 <div class="input-box"> 
+                    <span class="details">Last Name:</span> 
+                    <input type="text" name="lname"> 
+                 </div> 
+                <div class="input-box"> 
+                    <span class="details">Contact No.:</span> 
+                    <input type="text" name="Contact"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">E-mail:</span> 
+                    <input type="email" name="email"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">Course:</span> 
+                    <input type="text" name="course"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">Date:</span> 
+                    <input type="date" name="class_date"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">Start time:</span> 
+                    <input type="time" name="stime"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">End  time:</span> 
+                    <input type="time" name="etime"> 
+                </div> 
+                <div class="input-box"> 
+                    <span class="details">Room No.: </span> 
+                    <input type="text" name="room"> 
+                </div> 
+                 
+                <br>     
+                <div class = "submit"> 
+                <button type=" submit" id="ko" name="Submit ">Submit </button> 
+                  <script> 
+                    document.getElementById("ko").addEventListener("click",myFunction); 
+                    function myFunction() 
+                    { 
+                        window.location.href="Pagla.html"; 
+                    } 
+                </script>
+              </div> 
+             
+             </div> 
+        </form> 
+    </div>  
+</body> 
+ 
+ 
+</html>
